@@ -1,0 +1,350 @@
+{
+            "type": "carousel",
+            "contents": [
+            {
+             "type": "bubble",
+             "direction": "ltr",
+             "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+               {
+                "type": "text",
+                "text": "獎勵機制",
+                "weight": "bold",
+                "size": "xl",
+                "color": "#1A2970FF",
+                "align": "center",
+                "contents": []
+               }
+            ]
+           },
+           "hero": {
+             "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+             "layout": "vertical",
+             "contents": [
+                {
+                 "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "沒收到獎勵",
+                    "text": "沒收到獎勵",
+                   "data": "1"
+                 }
+               },
+               {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "獎勵提取錯誤",
+                    "text": "獎勵提取錯誤",
+                    "data": "2"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "獎勵功能失效",
+                    "text": "獎勵功能失效",
+                    "data": "3"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "最新攻略",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#080565FF",
+                  "align": "center",
+                  "contents": []
+                }
+              ]
+            },
+            "hero": {
+              "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "匯率計算",
+                    "text": "匯率計算",
+                    "data": "11"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "新手教學",
+                    "text": "新手教學",
+                    "data": "22"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "稀有角色出沒",
+                    "text": "稀有角色出沒",
+                    "data": "33"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "付款與帳務",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#040583FF",
+                  "align": "center",
+                  "contents": []
+                }
+              ]
+            },
+            "hero": {
+              "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "發票常見問題",
+                    "text": "發票常見問題",
+                    "data": "111"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "可使用的付款方式介紹",
+                    "text": "可使用的付款方式介紹",
+                    "data": "222"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "如何查詢發票",
+                    "text": "如何查詢發票",
+                    "data": "333"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "優惠券的使用方式",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#100469FF",
+                  "align": "center",
+                  "contents": []
+                }
+              ]
+            },
+            "hero": {
+              "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "優惠券的常見問題",
+                    "text": "優惠券的常見問題"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "LINE COIN常見問題",
+                    "text": "LINE COIN常見問題"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "優惠券無法使用",
+                    "text": "優惠券無法使用"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "帳號安全",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#120573FF",
+                  "align": "center",
+                  "contents": []
+                }
+              ]
+            },
+            "hero": {
+              "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "帳戶凍結問題",
+                    "text": "帳戶凍結問題"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "防詐騙小教室",
+                    "text": "防詐騙小教室"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "手機號已被註冊",
+                    "text": "手機號已被註冊"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "header": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "其他",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#1A007EFF",
+                  "align": "center",
+                  "contents": []
+                }
+              ]
+            },
+            "hero": {
+              "type": "image",
+              "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+              "size": "full",
+              "aspectRatio": "1.51:1",
+              "aspectMode": "fit"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "使用規範",
+                    "text": "使用規範"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "隱私設定",
+                    "text": "隱私設定"
+                  }
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "真人客服",
+                    "text": "真人客服"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
