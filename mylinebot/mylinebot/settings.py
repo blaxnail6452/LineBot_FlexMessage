@@ -26,12 +26,12 @@ SECRET_KEY = 'rmn-e3h@g0a)5$2hn43vdh*%7!h@o*cw%3-k5&*&bv41*iui^c'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '2891-140-134-26-61.ngrok.io',
+    '2891-.ngrok.io',
 ]
 
-LINE_CHANNEL_ACCESS_TOKEN = 'A7yZzVtYBQdw8ZVh77av/uQUirqCJW5Snt16vR/6Aj3Mk3biCYcI1NoAn4uAn2HAMw+y/YrmL3Mu2pCUKtB/l5cUMujKQT7sA96t21DGAxzyna3Tnu+TlzespaWdpWTsCcgwhA0Twi6vgxrDscFlyQdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_ACCESS_TOKEN = ''
  
-LINE_CHANNEL_SECRET = '1132768978d8dd4fe6b063657950dd46'
+LINE_CHANNEL_SECRET = ''
 
 
 # Application definition
